@@ -49,8 +49,6 @@ public class Firstfit {
     public static void main(String[] args) {
         List<MemoryBlock> memoryBlocks = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-
-        // Input memory block sizes
         System.out.print("Enter the number of memory blocks: ");
         int numBlocks = scanner.nextInt();
         for (int i = 0; i < numBlocks; i++) {
